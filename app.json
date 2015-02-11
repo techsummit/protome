@@ -1,0 +1,6 @@
+{
+  "name": "ProtoMe",
+  "description": "ProtoMe - Collaborative picture board application developed using HTML5 WebSocket",
+  "repository": "https://github.com/techsummit/protome",  
+  "keywords": ["node", "express", "websocket"]
+}

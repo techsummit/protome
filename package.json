@@ -1,0 +1,22 @@
+{
+  "name": "ProtoMe",
+  "version": "0.1",
+  "description": "ProtoMe - A Collaborative Picture Board",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "ws": "~0.4.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },  
+  "keywords": [
+    "node",
+    "websocket",
+    "express"
+  ],
+  "license": "MIT"
+}
