@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>ProtoMe - A Collaborative Picture Board</title>		
+	</head>
+	<body>
+		<div id="container">
+			<div id="topBar">				
+				<h3><u>ProtoMe Collaborative Picture Board</u></h3>				
+			</div>
+			<canvas id="canvas" width="600px" height="400px" style="border: 1px solid">
+				HTML5 Canvas is not supported.
+			</canvas>															
+			<div id="controls">
+				<p>
+					Clear Canvas: <button id="clear"> Clear </button>
+				</p>
+				<p>
+					Choose Color:
+					<input type="radio" name="color" value="red" checked /> Red
+					<input type="radio" name="color" value="green" /> Green
+					<input type="radio" name="color" value="blue" /> Blue
+				</p>
+				<p>
+					Choose Eraser:
+					<input type="radio" name="color" value="white" /> Eraser
+				</p>
+				<p> 
+					Choose Size:
+					<input type="radio" name="size" value="5" checked /> Small
+					<input type="radio" name="size" value="10" /> Medium
+					<input type="radio" name="size" value="15" /> Large
+					<input type="radio" name="size" value="20" /> Extra Large
+				</p>				
+			</div>
+		</div>	
+		<script src="js/lib/jquery-1.11.1.min.js"></script>
+		<script src="js/canvas.js"></script>
+		<script src="js/websocket-client.js"></script>
+	</body>
+</html>
