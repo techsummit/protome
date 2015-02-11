@@ -38,7 +38,7 @@ function handleDrawEvent(mouseEvent) {
   drawEvents.push(drawEvent);
 
   // task 2.2: push the canvas draw event to the server 
-  
+  sendToServer('draw', drawEvent);
 }
 
 
@@ -75,7 +75,7 @@ document.getElementById('clear').onclick = function() {
   clearCanvas();
 
   // task 2.3: push the canvas clear event to the server
-  
+  sendToServer('clear', null);
 };
 
 

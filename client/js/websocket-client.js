@@ -3,13 +3,13 @@ var ws = new WebSocket('wss://' + document.domain);
 
 
 // task 2.1: create a wrapper function to send messages to server
-
-
-
-
-
-
-
+function sendToServer(messageType, value) {
+	var serverMessage = {
+												'type': messageType,
+												'value': value
+											};
+	ws.send(JSON.stringify(serverMessage));
+}
 
 
 // task 3.1: add message handlers for incoming WebSocket events
