@@ -12,8 +12,7 @@ function sendToServer(messageType, value) {
 }
 
 
-// task 3.1: add message handlers for incoming WebSocket events
-/*  
+// task 3.1: add message handlers for incoming WebSocket events  
 ws.onmessage = function(message) {
 	var data = JSON.parse(message.data);
 	switch(data.type) {
@@ -27,4 +26,3 @@ ws.onmessage = function(message) {
 									break;
 	}								
 };
-*/
