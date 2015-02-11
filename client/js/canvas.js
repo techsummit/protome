@@ -81,7 +81,6 @@ document.getElementById('clear').onclick = function() {
 
 
 // task 3.2: add event delegates for WebSocket triggered events
-/*
 function drawEventDelegate(drawEvent) {
   drawEvents.push(drawEvent);
   repaintCanvas();
@@ -90,4 +89,3 @@ function drawEventDelegate(drawEvent) {
 function clearEventDelegate() {
   clearCanvas();
 }
-*/
